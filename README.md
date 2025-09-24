@@ -1,6 +1,6 @@
 # Gemini Chat Clone
 
-A fully functional, responsive conversational AI frontend inspired by Google Gemini, built with React.js.  
+A fully functional, responsive conversational AI frontend inspired by Google Gemini, built with React.js and Tailwind.  
 The project simulates a real-time chat interface where users can interact with an AI assistant, view responses,
  and manage chat history — similar to modern AI chat apps.
 
@@ -22,7 +22,7 @@ The project simulates a real-time chat interface where users can interact with a
 
 - React.js – Frontend UI library  
 - CSS / Tailwind CSS – Styling and responsiveness  
-- LocalStorage API – Persistent data storage  
+- LocalStorage  – Persistent data storage  
 - UUID – Unique chat IDs generation  
 
 ---
@@ -60,29 +60,25 @@ GEMINI AI/
 ##  Getting Started
 
 1. Clone the repository
-git clone https://github.com/your-username/gemini-chat-clone.git
+git clone-  https://github.com/swatisahu436/Gemini.git
 
-cd gemini-chat-clone
 
+-give path of folder
 
 2. Install dependencies
 
 
-npm install
+-npm install
 
 
 3. Start the development server
 
 
-npm run dev
+-npm run dev
 
 
-The app will be available at http://localhost:3000  
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repo and open pull requests to add new features or fix bugs.
+The app will be available at localhost( may be this port
+"http://localhost:3000)  
 
 ---
+
