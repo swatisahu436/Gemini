@@ -52,7 +52,7 @@ export default function Login() {
       <div className="w-full max-w-md bg-white p-8 rounded-2xl shadow-lg">
         <div className="text-center mb-6">
           <img
-            src="/gemini- .svg"
+            src="/gemini-logo.svg"
             alt="Gemini"
             className="mx-auto w-10 h-10"
           />
