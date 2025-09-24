@@ -74,7 +74,8 @@ const Chatroom = ({ chatId }) => {
         ref={chatContainerRef}
       >
         {visibleMessages.length === 0 ? (
-          <p className="text-4xl pt-24 font-medium text-blue-500">Hello, start asking!</p>
+          <p className="text-4xl pt-24 font-medium text-blue-500">Hello, start asking!<br/><span className=" mt-2 text-gray-500 text-sm"> Click on New chat</span></p>
+         
         ) : (
           visibleMessages.map((msg) => (
             <div key={msg.id} className="w-full mb-8 gap-4 grid p-3 rounded">
